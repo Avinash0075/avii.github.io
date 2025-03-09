@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portoflio website - Avinash kumar</title>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a7dbdfaf75.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="images/logo2.jpg" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>    
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text" data-aos="zoom-in-up">
+           <p style="color: white;">Web Developer</p>
+           <h1 style="color: white;">Hi, I'm <span>Avinash</span> Kumar Yadav<br>From India </h1>
+            </div>
+        </div>
+
+    </div>
+    <!------------about----------->
+    <div id="about">
+        <div class="container">
+          <div class="row">
+            <div class="about-col-1">
+                <img src="images/user2.jpg" data-aos="zoom-in-up">
+            </div> 
+            <div class="about-col-2">
+                <h1 class="sub-title" data-aos="zoom-in-up">About Me</h1>
+                <p data-aos="zoom-in-up">Avinash Kumar is a skilled web developer from India.
+                     He excels in coding and specializes in creating functional websites.
+                      His experience in building customized websites ensures that he delivers
+                       high-quality results within tight deadlines. With a strong work ethic and
+                        a commitment to quality, Avinash is the developer for your next web project.</p>
+
+                        <div class="tab-titles">
+                       <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                       <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                       <p class="tab-links" onclick="opentab('education')">Education</p>     
+                        </div>
+                        <div class="tab-contents active-tab" id="skills">
+                            <ul>
+                                
+                                <li><span>Python and C Programmer</span><br>Experienced in writing clean, efficient Python code to build scalable applications and automate tasks.</li>
+                                <li><span>Web Developer</span><br>Skilled in building responsive websites with HTML, CSS, JavaScript, Bootstrap and backend technologies.</li>
+                                <li><span>Web Designer</span><br>Passionate about creating clean, user-friendly designs with a focus on aesthetics and usability.</li>
+                            </ul>
+                        </div>
+                       
+                       <div class="tab-contents" id="experience">
+                            <ul>
+                                <li><span>10/07/24-10/09/24</span><br> Web Developer intern at Softpro india.</li>
+                                
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education">
+                            <ul>
+                                
+                                <li><span>2022-Running</span><br>Bachelor's Degree in Computer Applicatons. || Lucknow University.</li>
+                                <li><span>2022</span><br>Intermediate From Lucknow.</li>
+                                <li><span>2020</span><br>Matriculas From Lucknow.</li>
+                            </ul>
+                        </div>
+            </div>
+          </div>  
+        </div>
+    </div>
+<!------------------services-------------------->
+
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="services-list">
+            <div>
+                <i class="fa-solid fa-code"></i>
+                <h2 data-aos="zoom-in-up">Web Development</h2>
+                <P data-aos="zoom-in-up">I bring designs to life with responsive, dynamic websites that offer seamless user experiences.
+                     With a strong understanding of HTML, CSS, JavaScript, Bootstrap and backend technologies, I craft web 
+                     applications that are both functional and user-friendly.</P>
+                      
+            </div>
+            <div>
+                <i class="fa-solid fa-crop"></i>
+                <h2 data-aos="zoom-in-up">UI/UX Design</h2>
+                <P data-aos="zoom-in-up">UI/UX design is the process of designing the visual and
+                     interactive elements of a website or application to 
+                     optimize user experience and engagement.</P>
+                       
+            </div>
+            <div>
+                <i class="fa-brands fa-python"></i> &nbsp; | &nbsp;
+                <i class="fa-solid fa-c"></i>
+                <h2 data-aos="zoom-in-up">Python And C</h2>
+                <P data-aos="zoom-in-up">I specialize in creating efficient and scalable solutions.
+                     My expertise lies in writing clean, reusable code and 
+                     developing software that addresses real-world problems. 
+                    I leverage Python's versatility to deliver impactful results.</P>
+                       
+            </div>
+
+        </div>
+
+    </div>
+</div>
+
+<!-------------------------protofolio----------------->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/undraw_Online_learning_re_qw08 (1).png">
+                <div class="layer">
+                    <h3>E-Learning System</h3>
+                    <p>Developed an e-learning platform that offers remote access to courses, interactive lessons, quizzes,
+                         and progress tracking, allowing students to learn independently while instructors monitor their performance
+                          and engagement.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+               </div>
+               <div class="work">
+                <img src="images/undraw_Add_to_cart_re_wrdo.png">
+                <div class="layer">
+                    <h3>E-Commerce website</h3>
+                    <p>Created an e-commerce website with product listings, shopping cart, and payment options, offering users a smooth online shopping experience.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+               </div>
+               <div class="work">
+                <img src="images/undraw_netflix_q00o.png">
+                <div class="layer">
+                    <h3>Latest Movies Download site</h3>
+                    <p>Built a movie download website with a simple interface, allowing users to browse, search, and download movies easily and quickly.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+               </div>
+            
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!----------------contact------------------>
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left" data-aos="zoom-in-up">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fa-regular fa-paper-plane"></i>avinashbca.goel@gmail.com</p>
+                <p><i class="fa-solid fa-phone"></i> 7080960337</p>
+                <div class="social-icons">
+                 <a href="https://www.instagram.com/im_aviii.007/profilecard/?igsh=MW13bGhqc3drbmF0MQ=="><i class="fa-brands fa-instagram"></i></a>
+                 <a href="https:fa-facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                 <a href="https://www.linkedin.com/in/kumaravi007?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-linkedin"></i></a>
+                 <a href="#"><i class="fa-brands fa-twitter"></i></a>   
+                </div>
+                <a href="images/Avi's Resume2025.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right" data-aos="zoom-in-up">
+                <form action="https://api.web3forms.com/submit" method="POST">
+                    <input type="hidden" name="access_key" value="838bf877-e84c-417c-baa7-ff4c0d71fff5">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="reset" class="btn btn2">Reset</button>
+                    <button type="submit" class="btn btn2">Submit</button>
+                    
+                </form>
+            </div>
+            </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Avinash Kumar. <i class="fa-solid fa-headset"></i></p>
+    </div>
+</div>
+
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+         for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "-200px";
+    }
+</script>
+
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+</body>
+</html>
